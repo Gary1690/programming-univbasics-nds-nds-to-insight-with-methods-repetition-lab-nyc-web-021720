@@ -49,8 +49,16 @@ def total_gross(source)
   total_gross_for_all_directors = 0
   counter = 0
   while counter < directors_name.length
+<<<<<<< HEAD
     total_gross_for_all_directors += directors_and_grosses[directors_name[counter]]
+=======
+    total_gross_for_all_directors += directors_and_grosses[directors_name[0]]
+>>>>>>> 9fc5e6070c87013b94ec6dd4efede45beed7df5a
     counter+=1
   end
   total_gross_for_all_directors
 end
+<<<<<<< HEAD
+=======
+puts total_gross(directors_database)
+>>>>>>> 9fc5e6070c87013b94ec6dd4efede45beed7df5a
